@@ -18,7 +18,31 @@ const Auth = () => {
                     </span>
                 </div>
                 <form className="space-y-4 md:space-y-6">
-                    <input type="email" name='email' id='email' placeholder='name@info.com' required className={inputStyles} />
+                    <input
+                        type="email"
+                        name='email'
+                        id='email'
+                        placeholder='name@info.com'
+                        required
+                        className={inputStyles}
+                    />
+                    <input
+                        type="password"
+                        name='password'
+                        id='password'
+                        placeholder='password'
+                        required
+                        minLength={8}
+                        className={inputStyles}
+                    />
+                    <input
+                        type="text"
+                        name='name'
+                        id='name'
+                        placeholder='Ataullah Mesbah'
+                        required
+                        className={inputStyles}
+                    />
                 </form>
 
             </div>
