@@ -27,6 +27,14 @@ const Auth = () => {
                         className={inputStyles}
                     />
                     <input
+                        type="text"
+                        name='name'
+                        id='name'
+                        placeholder='Ataullah Mesbah'
+                        required
+                        className={inputStyles}
+                    />
+                    <input
                         type="password"
                         name='password'
                         id='password'
@@ -35,15 +43,10 @@ const Auth = () => {
                         minLength={8}
                         className={inputStyles}
                     />
-                    <input
-                        type="text"
-                        name='name'
-                        id='name'
-                        placeholder='Ataullah Mesbah'
-                        required
-                        className={inputStyles}
-                    />
+                    <button type="submit" className='w-full bg-tertiary-dark focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center'>Sign Up</button>
                 </form>
+
+                <button className='text-blue-700 underline'>Login</button>
 
             </div>
         </section>
